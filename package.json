@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-twa",
+  "version": "1.0.0",
+  "description": "eslint configs for twa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freewind/eslint-config-twa.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "twa"
+  ],
+  "author": "pli@thoughtworks.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freewind/eslint-config-twa/issues"
+  },
+  "homepage": "https://github.com/freewind/eslint-config-twa#readme"
+}
