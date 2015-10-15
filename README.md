@@ -7,5 +7,6 @@ npm link
 When check:
 
 ```
-eslint src -c twa --no-eslintrc
+npm install eslint-rules --prefix ~/temp/eslint-rules
+eslint src -c twa/basic --no-eslintrc --rulesdir eslint-rules
 ```
