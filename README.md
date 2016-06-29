@@ -32,6 +32,8 @@ Already published to:
 
 https://www.npmjs.com/package/eslint-config-twa
 
+(increase the version and `npm publish`)
+
 `eslint:recommended`
 -------------------
 
