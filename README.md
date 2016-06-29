@@ -7,6 +7,8 @@ It will be deployed as a normal npm package, and can be used in with eslint to c
 
 The `index.js` contains the default configurations, and `basic.js` and `normal.js` are two different levels of configuration can be chose.
 
+Some rules of this project depends on `eslint-rules` but it doesn't make sense to declare it in `package.json`. We have to install `eslint-rules` when we use when we check projects.
+
 How to use
 ----------
 
