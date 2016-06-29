@@ -25,7 +25,6 @@ or
 
 `--no-eslintrc` means don't use configurations from `.eslintrc`, instead, use the specified `-c` config files.
 
-`index.js` defines the default rules for this configuration. 
 Published
 ---------
 
