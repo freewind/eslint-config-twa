@@ -13,8 +13,10 @@ How to use
 ```
 npm install -g eslint
 npm install -g eslint-config-twa
-npm install eslint-rules --prefix ~/temp/eslint-rules
-eslint src -c twa/basic --no-eslintrc --rulesdir ~/temp/eslint-rules
+
+cd myproject
+npm install eslint-rules
+eslint . -c twa/basic --no-eslintrc --rulesdir ./node_modules/eslint-rules
 ```
 
 or
@@ -22,6 +24,14 @@ or
 ```
 -c twa/normal
 ```
+
+or
+
+```
+-c twa
+```
+
+which means `twa/index`.
 
 `--no-eslintrc` means don't use configurations from `.eslintrc`, instead, use the specified `-c` config files.
 

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twa",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "eslint configs for twa",
   "main": "index.js",
   "scripts": {
@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/freewind/eslint-config-twa/issues"
   },
-  "homepage": "https://github.com/freewind/eslint-config-twa#readme",
-  "dependencies": {
-    "eslint-rules": "^0.4.3"
-  }
+  "homepage": "https://github.com/freewind/eslint-config-twa#readme"
 }
