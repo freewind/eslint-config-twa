@@ -16,6 +16,8 @@ module.exports = {
         "es6": true,
         "node": true
     },
+    "plugins": [
+        "extra-rules"
+    ],
     "extends": "eslint:recommended"
-
 };
