@@ -3,7 +3,7 @@ module.exports = {
     "rules": {
 
         // eslint built-in rules
-        "indent": [2, 4],
+        "indent": [2, 2],
         "linebreak-style": [2, "unix"],
         "semi": [2, "always"],
         "space-infix-ops": [2],
