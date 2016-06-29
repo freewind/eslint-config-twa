@@ -1,3 +1,12 @@
+Eslint config for TWA
+---------------------
+
+This is a simple eslint config plugin for custom usage. 
+
+It will be deployed as a normal npm package, and can be used in with eslint to check our js projects.
+
+The `index.js` contains the default configurations, and `basic.js` and `normal.js` are two different levels of configuration can be chose.
+
 How to use
 ----------
 
@@ -16,6 +25,7 @@ or
 
 `--no-eslintrc` means don't use configurations from `.eslintrc`, instead, use the specified `-c` config files.
 
+`index.js` defines the default rules for this configuration. 
 Published
 ---------
 
